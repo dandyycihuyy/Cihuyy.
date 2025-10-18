@@ -1,0 +1,541 @@
+/* Pengaturan Dasar & Variabel Warna */
+:root {
+    --primary-color: #007BFF; /* Biru */
+    --secondary-color: #f3f3f3; /* Abu-abu muda */
+    --dark-color: #333;
+    --light-color: #ffffff;
+    --font-family: 'Poppins', sans-serif;
+}
+
+/* Reset CSS dasar */
+* {
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+html {
+    scroll-behavior: smooth; /* Efek scroll halus saat klik navigasi */
+}
+
+/* Utilitas Umum */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Header & Navigasi */
+header {
+    background-color: var(--light-color);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--dark-color);
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: var(--primary-color);
+}
+
+/* Bagian Hero */
+#hero {
+    background-color: var(--secondary-color);
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-content .subtitle {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Bagian Tentang Saya */
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    text-align: left;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+/* ====== GAYA UNTUK BAGIAN VIDEO ====== */
+
+#video-showcase {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #cbc3e3;
+}
+
+#video-showcase h2 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.video-tabs-container .tabs {
+    margin-bottom: 20px;
+}
+
+.tab-btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.tab-btn:hover {
+    background-color: #d0d0d0;
+}
+
+.tab-btn.active {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+
+.tab-content .tab-pane {
+    display: none;
+}
+
+.tab-content .tab-pane.active {
+    display: block;
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.video-container video {
+    display: block;
+    width: 100%;
+}
+
+/* ===== STYLE PEMUTAR MUSIK ===== */
+
+.music-player-section {
+    padding: 50px 20px;
+    background-color: #fed8b1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.spotify-player {
+    width: 100%;
+    max-width: 900px; /* Lebar ditambah untuk playlist */
+    background: linear-gradient(to top, #ffc0cb, #282828);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.main-content {
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+}
+
+.album-art {
+    flex-shrink: 0;
+}
+
+.album-art img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.lyrics-section {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#lyrics-container {
+    height: 200px;
+    overflow-y: scroll;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding-right: 15px;
+}
+
+#lyrics-container::-webkit-scrollbar {
+    display: none;
+}
+
+#lyrics-container p {
+    margin: 15px 0;
+    transition: all 0.4s ease-in-out;
+    opacity: 0.5;
+    color: #b3b3b3;
+}
+
+.highlight {
+    color: #f0f8ff !important;
+    opacity: 1 !important;
+    transform: scale(1.05);
+}
+
+.playlist-section {
+    width: 250px; /* Lebar area playlist */
+    flex-shrink: 0;
+    color: var(--light-color);
+}
+
+.playlist-section h3 {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 5px;
+}
+
+#playlist {
+    list-style: none;
+    height: 160px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+#playlist li {
+    padding: 8px 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+    font-size: 0.9em;
+    text-align: left;
+}
+
+#playlist li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#playlist li.active {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    font-weight: bold;
+}
+
+.player-controls {
+    background-color: #181818;
+    padding: 20px 30px;            
+    border-top: 1px solid #282828;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.song-info {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.song-info h2 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.song-info p {
+    margin: 5px 0 0;
+    font-size: 0.9em;
+    color: #b3b3b3;
+}
+
+.progress-bar-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#progress-bar {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 4px;
+    background: #4d4d4d;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+#progress-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+#progress-bar:hover::-webkit-slider-thumb {
+     background: #1DB954;
+}
+
+.time-display {
+    font-size: 0.8em;
+    color: #b3b3b3;
+    min-width: 40px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    align-items: center; 
+    gap: 15px;
+}
+
+button.control-btn {
+    background: none;
+    border: none;
+    color: #f0f8ff;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button.control-btn:hover {
+    transform: scale(1.1);
+    color: #f0f8ff; 
+}
+
+/* Bagian Proyek */
+#projects {
+    background-color: #ffb6c1;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.project-card {
+    background-color: var(--light-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+}
+
+.project-card a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* ===== GAYA UNTUK BAGIAN FEEDBACK ===== */
+#feedback {
+    background-color: #e6e6fa; /* Lavender */
+}
+
+.feedback-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: var(--font-family);
+    font-size: 1rem;
+}
+
+.star-rating {
+    display: flex;
+    flex-direction: row-reverse; /* Agar hover bekerja dari kanan ke kiri */
+    justify-content: center;
+}
+
+.star {
+    font-size: 2.5rem;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.star:hover,
+.star:hover ~ .star,
+.star.selected,
+.star.selected ~ .star {
+    color: #ffdd57; /* Warna kuning emas untuk bintang */
+}
+
+
+/* Bagian Kontak */
+#contact {
+    background-color: var(--secondary-color);
+}
+
+#contact .social-links {
+    margin-top: 20px;
+}
+
+#contact .social-links a {
+    margin: 0 10px;
+    color: var(--dark-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#contact .social-links a:hover {
+    color: var(--primary-color);
+}
+
+/* Footer */
+footer {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive Design untuk Mobile */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    .nav-links {
+        display: none;
+    }
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .main-content {
+        flex-direction: column;
+    }
+    .album-art img, .lyrics-section, #lyrics-container, .playlist-section, #playlist {
+        width: 100%;
+        height: auto;
+    }
+}

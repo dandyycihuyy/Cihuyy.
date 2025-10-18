@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Dandy Ahmad</title>
+    <link rel="stylesheet" href="portofolio1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">Betmen</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Halo, saya Dandy Ahmad</h1>
+                <p class="subtitle">Saya merupakan pelajar dari SMK Negeri 67 Jakarta</p>
+                <a href="#projects" class="cta-button">Lihat Soft Skill Saya</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-container">
+                <img src="kucing1.jpg" alt="My Wajah" class="profile-pic">
+                <div>
+                    <p><strong>Nickname:</strong> Dandy Ahmad</p>
+                    <p><strong>Hobi:</strong> Bermain Bulu Tangkis, Membantu Orang Tua</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="video-showcase">
+            <h2>Galeri Video</h2>
+            <div class="video-tabs-container">
+                <div class="tabs">
+                    <button class="tab-btn active" data-target="#tugas-videos">Tugas</button>
+                    <button class="tab-btn" data-target="#jj-videos">JJ</button>
+                    <button class="tab-btn" data-target="#typography-videos">Typography</button>
+                </div>
+                <div class="tab-content">
+                    <div id="tugas-videos" class="tab-pane active">
+                        <div class="video-container">
+                             <video controls width="100%">
+                                <source src="Tomat lapet.mp4" type="video/mp4">
+                                Browser Anda tidak mendukung tag video.
+                            </video>
+                        </div>
+                    </div>
+                    <div id="jj-videos" class="tab-pane">
+                         <div class="video-container">
+                            <video controls width="100%">
+                                <source src="contoh.mp4" type="video/mp4">
+                                Browser Anda tidak mendukung tag video.
+                            </video>
+                        </div>
+                    </div>
+                    <div id="typography-videos" class="tab-pane">
+                         <div class="video-container">
+                            <video controls width="100%">
+                                <source src="walawe.mp4" type="video/mp4">
+                                Browser Anda tidak mendukung tag video.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="music-player" class="music-player-section">
+            <h2>Lagu Favorit</h2>
+            <div class="spotify-player">
+                <div class="main-content">
+                    <div class="album-art">
+                        <img id="albumArt" src="album.jpeg" alt="Album Art">
+                    </div>
+                    <div class="lyrics-section">
+                        <div id="lyrics-container"></div>
+                    </div>
+                    <div class="playlist-section">
+                        <h3>Playlist</h3>
+                        <ul id="playlist">
+                            </ul>
+                    </div>
+                </div>
+
+                <div class="player-controls">
+                    <div class="song-info">
+                        <h2 id="songTitle">Alamak</h2>
+                        <p id="songArtist">Rizky Febian</p>
+                    </div>
+                    
+                    <div class="progress-bar-container">
+                        <div id="currentTime" class="time-display">00:00</div>
+                        <input type="range" id="progress-bar" value="0" step="1" min="0">
+                        <div id="duration" class="time-display">00:00</div>
+                    </div>
+
+                    <div class="buttons">
+                        <button id="prevBtn" class="control-btn">⏮️</button>
+                        <button id="rewindBtn" class="control-btn">⏪</button>
+                        <button id="playBtn" class="control-btn">▶️</button>
+                        <button id="pauseBtn" class="control-btn" style="display: none;">⏸️</button>
+                        <button id="forwardBtn" class="control-btn">⏩</button>
+                        <button id="nextBtn" class="control-btn">⏭️</button>
+                    </div>
+                </div>
+            </div>
+            <audio id="myAudio"></audio>
+        </section>
+
+        <section id="projects">
+            <h2>My Soft Skill</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="alight motion.jpg" alt="Alight Motion">
+                    <h3>Alight Motion</h3>
+                    <p>aplikasi desain gerak profesional untuk membuat Animasi, Motion Graphic, dan Efek Visual berkualitas profesional</p>
+                    <a href="https://lynk.id/betmennn" target="_blank">Lihat Proyek</a>
+                </div>
+                <div class="project-card">
+                    <img src="download.jpg" alt="CapCut">
+                    <h3>CapCut</h3>
+                    <p>Capcut adalah aplikasi editor video dan alat desain grafis gratis</p>
+                    <a href="https://lynk.id/betmennn" target="_blank">Lihat Proyek</a>
+                </div>
+                <div class="project-card">
+                    <img src="kinemaster.jpg" alt="KineMaster">
+                    <h3>KineMaster</h3>
+                    <p>KineMaster adalah aplikasi editor video profesional yang populer dan mudah digunakan</p>
+                    <a href="https://lynk.id/betmennn" target="_blank">Lihat Proyek</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="feedback">
+            <h2>Beri Pesan atau Saran</h2>
+            <p>Bagaimana pendapatmu tentang portofolio ini? Beri tahu saya!</p>
+            <form class="feedback-form">
+                <div class="form-group">
+                    <label for="message">Pesan Anda</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Tulis pesanmu di sini..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="suggestion">Saran untuk Peningkatan</label>
+                    <textarea id="suggestion" name="suggestion" rows="4" placeholder="Apa yang bisa saya tingkatkan?"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Rating Anda</label>
+                    <div class="star-rating">
+                        <span class="star" data-value="1">☆</span>
+                        <span class="star" data-value="2">☆</span>
+                        <span class="star" data-value="3">☆</span>
+                        <span class="star" data-value="4">☆</span>
+                        <span class="star" data-value="5">☆</span>
+                    </div>
+                </div>
+                <button type="submit" class="cta-button">Kirim Masukan</button>
+            </form>
+        </section>
+
+        <section id="contact">
+            <h2>Hubungi Saya</h2>
+            <p>Tertarik untuk bekerja sama? Kirimkan saya email!</p>
+            <a href="mailto:dandyahmad139@gmail.com" class="cta-button">Send Email</a>
+            <div class="social-links">
+                <a href="https://youtube.com/@dannftabyss." target="_blank">YouTube</a> |
+                <a href="https://www.instagram.com/dandyyahmad_/" target="_blank">Instagram</a> |
+                <a href="http://tiktok.com/@dannsoniced" target="_blank">Tiktok</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; DONTOL KNALPOT 696</p>
+    </footer>
+
+    <script src="portofolio1.js"></script>
+</body>
+</html>
