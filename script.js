@@ -169,7 +169,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 { time: 5, text: "ketik sendiri" },
                 { time: 10, text: "ketik sendiri" }
             ]
-        }
+        },
+        {
+            title: "Payphone",
+            artist: "Maroon 5",
+            src: "Payphone.mp3",
+            album: "maroon.jpg",
+            lyrics: [
+                { time: 5, text: "cuih" },
+                { time: 10, text: "cuih" }
+            ]
+            }
     ];
 
     const audio = document.getElementById('myAudio');
