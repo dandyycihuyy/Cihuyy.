@@ -86,8 +86,8 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title:"Mejikuhibiniu",
             artist: "Tenxi, Suisei & Jemsii",
-            src: "mejikuhibiniu.mp3", // Ganti dengan nama file lagumu
-            album: "mejikuhibiniu.jpg", // Ganti dengan gambar album
+            src: "mejikuhibiniu.mp3",
+            album: "mejikuhibiniu.jpg",
             lyrics: [
                 { time: 5, text: "Mejikuhibiniu ku lihat kamu" },
                 { time: 10, text: "Hidup penuh warna warni saat ku bersamamu" },
@@ -143,8 +143,8 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: "Kasih Aba-Aba",
             artist: "Naykilla, Tenxi & Jemsii",
-            src: "kasih aba aba.mp3", // Ganti dengan nama file lagumu
-            album: "ku merasakan.jpg", // Ganti dengan gambar album
+            src: "kasih aba aba.mp3",
+            album: "ku merasakan.jpg",
             lyrics: [
                 { time: 3, text: "isi sendiri" },
                 { time: 8, text: "isi sendiri" }
@@ -153,14 +153,13 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: "Where We Are",
             artist: "One Direction",
-            src: "Intel inside.mp3", // Ganti dengan nama file lagumu
-            album: "where.jpg", // Ganti dengan gambar album
+            src: "Where We Are.mp3",
+            album: "where.jpg",
             lyrics: [
                 { time: 5, text: "males ketik" },
                 { time: 10, text: "males ketik" }
             ]
         }
-        
     ];
 
     const audio = document.getElementById('myAudio');
