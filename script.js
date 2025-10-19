@@ -6,6 +6,11 @@ console.log("Selamat Datang Di Portofolio Saya!");
 // Contoh: animasi saat scroll, validasi form kontak, dll.
 document.addEventListener('DOMContentLoaded', () => {
 
+    const player = cloudinary.player('player', {
+  cloudName: 'dudhdwq9a',
+  publicId: 'Tomat_lapet_t10hx1',
+  profile: 'cld-default'
+});
     // === BAGIAN PEMUTAR MUSIK ===
     const playlistData = [
         {
