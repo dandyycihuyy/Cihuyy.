@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: "Where We Are",
             artist: "One Direction",
-            src: "Where We Are.mp3",
+            src: "WhereWeAre.mp3",
             album: "where.jpg",
             lyrics: [
                 { time: 5, text: "males ketik" },
