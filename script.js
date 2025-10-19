@@ -179,7 +179,27 @@ document.addEventListener('DOMContentLoaded', () => {
                 { time: 5, text: "cuih" },
                 { time: 10, text: "cuih" }
             ]
-            }
+        },
+        {
+            title: "8 Letters",
+            artist: "Why Don't We",
+            src: "8 Letters.mp3",
+            album: "why don't we.jpg",
+            lyrics: [
+                { time: 5, text: "lah" },
+                { time: 10, text: "lah" }
+            ]
+        },
+        {
+            title: "Ghost",
+            artist: "Justin Bieber",
+            src: "ghost.mp3",
+            album: "justin bieber.jpg",
+            lyrics: [
+                { time: 5, text: "jir" },
+                { time: 10, text: "jir" }
+            ]
+        }
     ];
 
     const audio = document.getElementById('myAudio');
