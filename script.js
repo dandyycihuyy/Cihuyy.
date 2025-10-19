@@ -153,13 +153,13 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: "Where We Are",
             artist: "One Direction",
-            src: "where we are.mp3", // Ganti dengan nama file lagumu
-            album: "one direction.jpg", // Ganti dengan gambar album
+            src: "WhereWeAre.mp3", // Ganti dengan nama file lagumu
+            album: "where.jpg", // Ganti dengan gambar album
             lyrics: [
                 { time: 5, text: "males ketik" },
                 { time: 10, text: "males ketik" }
             ]
-        },
+        }
         
     ];
 
