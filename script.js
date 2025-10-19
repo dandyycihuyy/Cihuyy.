@@ -149,8 +149,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 { time: 3, text: "isi sendiri" },
                 { time: 8, text: "isi sendiri" }
             ]
-        }
-        // Tambahkan hingga 10 lagu atau lebih di sini
+        },
+        {
+            title: "Where We Are",
+            artist: "One Direction",
+            src: "Where We Are.mp3", // Ganti dengan nama file lagumu
+            album: "where.jpg", // Ganti dengan gambar album
+            lyrics: [
+                { time: 3, text: "isi sendiri" },
+                { time: 8, text: "isi sendiri" }
     ];
 
     const audio = document.getElementById('myAudio');
