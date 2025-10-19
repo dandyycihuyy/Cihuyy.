@@ -156,8 +156,8 @@ document.addEventListener('DOMContentLoaded', () => {
             src: "Where We Are.mp3", // Ganti dengan nama file lagumu
             album: "where.jpg", // Ganti dengan gambar album
             lyrics: [
-                { time: 3, text: "isi sendiri" },
-                { time: 8, text: "isi sendiri" }
+                { time: 3, text: "males ketik" },
+                { time: 8, text: "males ketik" }
     ];
 
     const audio = document.getElementById('myAudio');
