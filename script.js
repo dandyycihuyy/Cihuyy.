@@ -141,10 +141,10 @@ document.addEventListener('DOMContentLoaded', () => {
             ]
         },
         {
-            title: "Kasih aba-aba",
+            title: "Kasih Aba-Aba",
             artist: "Naykilla, Tenxi & Jemsii",
             src: "kasih aba aba.mp3", // Ganti dengan nama file lagumu
-            album: "kasih aba aba.jpg", // Ganti dengan gambar album
+            album: "ku merasakan.jpg", // Ganti dengan gambar album
             lyrics: [
                 { time: 3, text: "isi sendiri" },
                 { time: 8, text: "isi sendiri" }
