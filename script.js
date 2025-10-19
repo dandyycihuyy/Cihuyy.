@@ -1,6 +1,6 @@
 // Pesan ini akan muncul di console browser (Klik kanan -> Inspect -> Console)
 // Ini adalah cara yang baik untuk memastikan file JavaScript Anda terhubung dengan benar.
-console.log("Selamat Datang Di Portofolio Saya!");
+console.log("Welcome to myPortofolio!");
 
 // Anda bisa menambahkan fungsi-fungsi interaktif lainnya di sini di masa depan.
 // Contoh: animasi saat scroll, validasi form kontak, dll.
@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             title:"Mejikuhibiniu",
-            artist: "Tenxi Suisei & Jemsii",
+            artist: "Tenxi, Suisei & Jemsii",
             src: "mejikuhibiniu.mp3", // Ganti dengan nama file lagumu
             album: "mejikuhibiniu.jpg", // Ganti dengan gambar album
             lyrics: [
@@ -141,8 +141,8 @@ document.addEventListener('DOMContentLoaded', () => {
             ]
         },
         {
-            title: "Contoh Lagu 3",
-            artist: "Artis Ketiga",
+            title: "Kasih aba-aba",
+            artist: "Naykilla, Tenxi & Jemsii",
             src: "kasih aba aba.mp3", // Ganti dengan nama file lagumu
             album: "kasih aba aba.jpg", // Ganti dengan gambar album
             lyrics: [
