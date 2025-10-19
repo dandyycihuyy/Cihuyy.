@@ -159,6 +159,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 { time: 5, text: "males ketik" },
                 { time: 10, text: "males ketik" }
             ]
+        },
+        {
+            title: "Daylight",
+            artist: "Maroon 5",
+            src: "Daylight.mp3",
+            album: "maroon.jpg",
+            lyrics: [
+                { time: 5, text: "ketik sendiri" },
+                { time: 10, text: "ketik sendiri" }
+            ]
         }
     ];
 
