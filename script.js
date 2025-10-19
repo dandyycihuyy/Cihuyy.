@@ -5,6 +5,7 @@ console.log("Selamat Datang Di Portofolio Saya!");
 // Anda bisa menambahkan fungsi-fungsi interaktif lainnya di sini di masa depan.
 // Contoh: animasi saat scroll, validasi form kontak, dll.
 document.addEventListener('DOMContentLoaded', () => {
+
     // === BAGIAN PEMUTAR MUSIK ===
     const playlistData = [
         {
@@ -142,11 +143,11 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: "Contoh Lagu 3",
             artist: "Artis Ketiga",
-            src: "lagu3.mp3", // Ganti dengan nama file lagumu
-            album: "album3.jpg", // Ganti dengan gambar album
+            src: "kasih aba aba.mp3", // Ganti dengan nama file lagumu
+            album: "kasih aba aba.jpg", // Ganti dengan gambar album
             lyrics: [
-                { time: 3, text: "Lagu ketiga dimulai" },
-                { time: 8, text: "Dan ini baris berikutnya" }
+                { time: 3, text: "isi sendiri" },
+                { time: 8, text: "isi sendiri" }
             ]
         }
         // Tambahkan hingga 10 lagu atau lebih di sini
