@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: "Ghost",
             artist: "Justin Bieber",
-            src: "Ghost.mp3",
+            src: "ghost.mp3",
             album: "justin bieber.jpg",
             lyrics: [
                 { time: 5, text: "jir" },
