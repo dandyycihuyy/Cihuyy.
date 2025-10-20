@@ -352,8 +352,8 @@ document.addEventListener('DOMContentLoaded', () => {
         audio.currentTime = Math.max(0, Math.min(audio.duration, audio.currentTime + amount));
     };
 
-    rewindBtn.addEventListener('click', () => seekTime(-30));
-    forwardBtn.addEventListener('click', () => seekTime(30));
+    rewindBtn.addEventListener('click', () => seekTime(-10));
+    forwardBtn.addEventListener('click', () => seekTime(10));
 
     // Inisialisasi pemutar musik
     createPlaylist();
