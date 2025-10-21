@@ -209,6 +209,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 { time: 5, text: "walawe" },
                 { time: 10, text: "walawe" }
             ]
+        },
+        {
+            title: "Baon Cikadap",
+            artist: "Farell",
+            src: "baon cikadap.mp3",
+            album: "cuki.jpg",
+            lyrics: [
+                { time: 5, text: "anjing" },
+                { time: 10, text: "anjing" }
+            ]
         }
     ];
 
