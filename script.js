@@ -199,6 +199,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 { time: 5, text: "jir" },
                 { time: 10, text: "jir" }
             ]
+        },
+        {
+            title: "Lonely",
+            artist: "Akon",
+            src: "Lonely.mp3",
+            album: "Akon.jpg",
+            lyrics: [
+                { time: 5, text: "walawe" },
+                { time: 10, text: "walawe" }
+            ]
         }
     ];
 
